@@ -1,0 +1,71 @@
+---
+title: 'Thai Hot Oil Deep Tissue Massage'
+description: "Professional deep tissue massage combining Thai techniques with warm oils. Effective relief for muscle tension, sports injuries and chronic discomfort."
+permalink: 'deep-tissue/'
+eleventyNavigation:
+
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/service-page.css">
+    <link rel="preload" as="image" href="{% getUrl "/assets/images/banner.jpg" | resize({width: 2560, height: 1136}) | avif %}">
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                 Content Page                 -->
+<!-- ============================================ -->
+
+<section id="content-page-1399">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <div class="cs-flex">
+                <picture class="cs-background">
+                <!--Mobile Image -->
+                <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/featured-2.jpg" | resize({width: 874, height: 1072}) | avif %}" type="image/avif">
+                <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/featured-2.jpg" | resize({width: 874, height: 1072}) | webp %}" type="image/webp">
+                <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/featured-2.jpg" | resize({width: 874, height: 1072}) | jpeg %}" type="image/jpeg">
+                <!--Tablet Image -->
+                <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/featured-2.jpg" | resize({width: 874, height: 1072}) | avif %}" type="image/avif">
+                <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/featured-2.jpg" | resize({width: 874, height: 1072}) | webp %}" type="image/webp">
+                <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/featured-2.jpg" | resize({width: 874, height: 1072}) | jpeg %}" type="image/jpeg">
+                <!--Desktop Image -->
+                <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/featured-2.jpg" | resize({width: 1084, height: 1334}) | avif %}" type="image/avif">
+                <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/featured-2.jpg" | resize({width: 1084, height: 1334}) | webp %}" type="image/webp">
+                <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/featured-2.jpg" | resize({width: 1084, height: 1334}) | jpeg %}" type="image/jpeg">
+                <img src="{% getUrl "/assets/images/featured-2.jpg" | resize({width: 1084, height: 1334}) | jpeg %}" alt="deep tissue massage" width="542" height="728" loading="lazy" decoding="async" aria-hidden="true">
+                </picture>
+            </div>
+        </div>
+        <div class="cs-content">
+            <h1 class="cs-title">Experience <span class="cs-color">Thai Hot Oil Deep Tissue Massage</span> in Skipton</h1>
+            <p>Welcome to Skipton Thai Massage! Discover the therapeutic power of our Thai Hot Oil Deep Tissue Massage, where traditional Thai techniques combine with targeted pressure and warming oils to address deep-seated muscle tension.</p>
+            <p>During your deep tissue massage session, our experienced therapist utilises firm, precise pressure and specialised Thai techniques whilst working with heated aromatic oils. This powerful combination allows us to effectively target chronic muscle tension, release stubborn knots, and access deeper layers of muscle tissue, promoting lasting relief and recovery.</p>
+            <p>Thai Hot Oil Deep Tissue Massage is particularly effective for addressing persistent muscle tension, sports-related strains, and chronic discomfort. The warmth of the oils helps to soften and prepare muscles for deeper work, whilst promoting circulation and reducing inflammation. Whether you're an athlete seeking recovery, an office worker dealing with postural strain, or someone experiencing long-term muscle tension, our treatment is tailored to address your specific concerns.</p>
+            <h3>Discover the Skipton Thai Massage Deep Tissue Difference</h3>
+            <ul>
+                <li>
+                    <strong>Professional Therapeutic Approach:</strong> Experience a thorough treatment that combines traditional Thai massage wisdom with modern deep tissue techniques for maximum therapeutic benefit.
+                </li>
+                <li>
+                    <strong>Targeted Muscle Relief:</strong> Our specialised techniques focus on releasing chronic tension and addressing specific problem areas, helping to restore optimal muscle function and mobility.
+                </li>
+                <li>
+                    <strong>Enhanced Therapeutic Effects:</strong> The combination of heated oils and deep tissue work helps to improve circulation, reduce inflammation, and promote faster muscle recovery.
+                </li>
+                <li>
+                    <strong>Personalised Pressure Adaptation:</strong> Our skilled therapist carefully adjusts the pressure to match your comfort level while effectively addressing deep-seated tension.
+                </li>
+                <li>
+                    <strong>Long-lasting Results:</strong> Experience the benefits of deep tissue work enhanced by therapeutic oils, providing extended relief from muscle tension and discomfort.
+                </li>
+            </ul>
+        </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

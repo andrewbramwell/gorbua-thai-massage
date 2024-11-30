@@ -1,0 +1,784 @@
+/*-- -------------------------- -->
+<---      Why Choose 1635       -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #why-choose-1635 {
+    padding: var(--sectionPadding);
+  }
+  #why-choose-1635 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 36.5rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 100px */
+    gap: clamp(3rem, 10vw, 6.25rem);
+  }
+  #why-choose-1635 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #why-choose-1635 .cs-flex {
+    max-width: 38.5rem;
+  }
+  #why-choose-1635 .cs-title {
+    max-width: 20ch;
+  }
+  #why-choose-1635 .cs-text {
+    margin-bottom: 1rem;
+  }
+  #why-choose-1635 .cs-text:last-of-type {
+    margin-bottom: 0;
+  }
+  #why-choose-1635 .cs-wrapper {
+    width: 100%;
+  }
+  #why-choose-1635 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    row-gap: 1.75rem;
+    /* 16px - 20px */
+    column-gap: clamp(1rem, 2.3vw, 1.25rem);
+  }
+  #why-choose-1635 .cs-item {
+    text-align: left;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    grid-column: span 12;
+    flex-direction: column;
+    align-items: flex-start;
+    /* 16px - 24px */
+    gap: clamp(1rem, 3vw, 1.5rem);
+  }
+  #why-choose-1635 .cs-icon-wrapper {
+    /* 60px - 80px */
+    width: clamp(3.75rem, 7vw, 5rem);
+    height: clamp(3.75rem, 7vw, 5rem);
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid var(--primary);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+  #why-choose-1635 .cs-icon {
+    width: 2rem;
+    height: auto;
+    display: block;
+    /* changes color of svg icon */
+    fill: var(--primary);
+  }
+  #why-choose-1635 .cs-h3 {
+    font-size: 1.25rem;
+    line-height: 1.5em;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    color: var(--headerColor);
+    text-align: inherit;
+  }
+  #why-choose-1635 .cs-item-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    margin: 0;
+    color: var(--bodyTextColor);
+    text-align: inherit;
+  }
+  #why-choose-1635 .cs-wrapper {
+    /* makes the contents of this container act as though the container doesn't exist. They are now children of the cs-container so they can be positioned around each other. This allows us to sue the order property to place the cs-image-group at the top of the page on mobile */
+    display: contents;
+  }
+  #why-choose-1635 .cs-image-group {
+    font-size: min(2.7vw, 1em);
+    width: 33.875em;
+    height: 30.875em;
+    /* sends it to teh top in the 1st position */
+    order: -1;
+    position: relative;
+    z-index: 1;
+  }
+  #why-choose-1635 .cs-picture-wrapper {
+    width: 80.073801%;
+    height: 83.805668%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: stretch;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+  #why-choose-1635 .cs-box {
+    width: 60%;
+    margin-top: -2.375em;
+    margin-left: 1.5em;
+    padding: 1em;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+    position: relative;
+    z-index: 10;
+  }
+  #why-choose-1635 .cs-header {
+    font-size: 1em;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: 0;
+    color: var(--headerColor);
+    display: block;
+  }
+  #why-choose-1635 .cs-desc {
+    font-size: 0.875em;
+    line-height: 1.5em;
+    margin: 0;
+    color: var(--primary);
+    display: block;
+  }
+  #why-choose-1635 .cs-picture {
+    position: relative;
+    z-index: 1;
+  }
+  #why-choose-1635 .cs-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 1rem;
+  }
+  #why-choose-1635 .cs-picture1 {
+    width: 100%;
+    height: 100%;
+  }
+  #why-choose-1635 .cs-picture2 {
+    width: 36.346863%;
+    height: 39.878543%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #why-choose-1635 .cs-container {
+    max-width: 80rem;
+  }
+  #why-choose-1635 .cs-content {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  #why-choose-1635 .cs-flex {
+    text-align: left;
+    width: 40vw;
+    max-width: 40rem;
+    flex: none;
+  }
+  #why-choose-1635 .cs-title {
+    margin: 0;
+  }
+  #why-choose-1635 .cs-h3,
+  #why-choose-1635 .cs-item-text {
+    text-align: left;
+  }
+  #why-choose-1635 .cs-item {
+    grid-column: span 4;
+  }
+  #why-choose-1635 .cs-image-group {
+    width: 100%;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #why-choose-1635 {
+    /* set the darker background color on the main div */
+    background-color: #fff;
+    overflow: hidden;
+  }
+  #why-choose-1635 .cs-content {
+    align-items: flex-start;
+  }
+  #why-choose-1635 .cs-flex {
+    width: 50%;
+  }
+  #why-choose-1635 .cs-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2.5rem;
+    position: relative;
+    z-index: 1;
+  }
+  #why-choose-1635 .cs-wrapper:before {
+    /* make the white space dependant on the height of the cs-wrapper as a pseudo element attached to the cs wrapper. This makes the white background responsive to the amount of items you have in your list. When the list grows or shrinks, the design will maintain its same spacing */
+    content: '';
+    width: 100vw;
+    height: 100vw;
+    background: #fff;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%);
+  }
+  #why-choose-1635 .cs-card-group {
+    max-width: 39.375rem;
+    /* use padding to push add the same amount of space between the content and the top of the card group as the negative margin top value on the cs-image-group. This makes sure that it counter acts the effects of the negative margin affecting the card group as well */
+    padding-top: 3rem;
+    align-self: flex-start;
+  }
+  #why-choose-1635 .cs-image-group {
+    width: 33.875em;
+    /* by setting height to auto, it will stretch to fill the container height. So when you add or subtract more cards and change the height of the container, the image group will shrink as well. Thats why we set the heights of the images in percentages. They will always be X% tall inside the cs-image-group. So when the image group stretches to match the container height, the pictures percentage height also grows proportionally. This ensures the design responds to changes in height from the card section on the left. */
+    height: auto;
+    min-height: 30.875em;
+    /* makes it overlap the .cs-wrapper div */
+    margin-top: -3rem;
+    flex: none;
+  }
+  #why-choose-1635 .cs-item {
+    grid-column: span 12;
+    flex-direction: row;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #why-choose-1635 {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  body.dark-mode #why-choose-1635 .cs-title,
+  body.dark-mode #why-choose-1635 .cs-text,
+  body.dark-mode #why-choose-1635 .cs-h3,
+  body.dark-mode #why-choose-1635 .cs-item-text,
+  body.dark-mode #why-choose-1635 .cs-header {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #why-choose-1635 .cs-text,
+  body.dark-mode #why-choose-1635 .cs-item-text {
+    opacity: 0.8;
+  }
+  body.dark-mode #why-choose-1635 .cs-box {
+    background-color: var(--dark);
+    position: relative;
+    z-index: 1;
+  }
+  body.dark-mode #why-choose-1635 .cs-box:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.2;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  body.dark-mode #why-choose-1635 .cs-wrapper:before {
+    background-color: var(--dark);
+  }
+}
+/*-- -------------------------- -->
+<---       Services 877         -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #services-877 {
+    padding: var(--sectionPadding);
+  }
+  #services-877 .cs-container {
+    width: 100%;
+    /* changes to 1280px at Tablet */
+    max-width: 49rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #services-877 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #services-877 .cs-title {
+    /* max width of 22 characters, includes spaces between words */
+    max-width: 39ch;
+  }
+  #services-877 .cs-text {
+    max-width: 66.5rem;
+  }
+  #services-877 .cs-card-group {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+  }
+  #services-877 .cs-item {
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    max-width: 31.25rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    overflow: hidden;
+    grid-column: span 3;
+    position: relative;
+    z-index: 1;
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  #services-877 .cs-item:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transform: translateY(-0.4375rem);
+  }
+  #services-877 .cs-item:hover .cs-picture img {
+    opacity: 0.3;
+    transform: scale(1.1);
+  }
+  #services-877 .cs-item:hover .cs-h3 {
+    color: var(--primaryLight);
+  }
+  #services-877 .cs-item:before {
+    /* border, done in pseudo so it can sit under the picture */
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    border: 1px solid #e8e8e8;
+    /* prevents border from affecting height and width */
+    box-sizing: border-box;
+    background: transparent;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #services-877 .cs-link {
+    text-decoration: none;
+    padding: 0 0 1.25rem 0;
+    display: block;
+  }
+  #services-877 .cs-picture {
+    width: 100%;
+    height: 12.5rem;
+    margin-bottom: 1.25rem;
+    background-color: var(--primaryLight);
+    /* clips the img tag corners */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    z-index: 10;
+  }
+  #services-877 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.6s, opacity 0.3s;
+  }
+  #services-877 .cs-h3 {
+    font-size: 1.25rem;
+    text-align: inherit;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: var(--headerColor);
+    margin: 0 0 0.75rem 0;
+    /* 16px - 24px */
+    padding: 0 clamp(1rem, 2vw, 1.5rem);
+    transition: color 0.3s;
+  }
+  #services-877 .cs-item-text {
+    /* 14px - 16px  */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    text-align: inherit;
+    line-height: 1.5em;
+    color: var(--bodyTextColor);
+    margin: 0;
+    padding: 0 1.25rem;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #services-877 .cs-container {
+    max-width: 80rem;
+  }
+  #services-877 .cs-item {
+    grid-column: span 1;
+    max-width: 28.875rem;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #services-877 .cs-topper {
+    color: var(--primary);
+  }
+  body.dark-mode #services-877 .cs-title,
+  body.dark-mode #services-877 .cs-text,
+  body.dark-mode #services-877 .cs-h3,
+  body.dark-mode #services-877 .cs-item-text {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #services-877 .cs-text,
+  body.dark-mode #services-877 .cs-item-text {
+    opacity: 0.8;
+  }
+  body.dark-mode #services-877 .cs-item {
+    background-color: var(--medium);
+  }
+  body.dark-mode #services-877 .cs-item:before {
+    opacity: 0.3;
+  }
+}
+/*-- -------------------------- -->
+<---          Reviews           -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #reviews-727 {
+    padding: var(--sectionPadding);
+  }
+  #reviews-727 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 34.375rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #reviews-727 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #reviews-727 .cs-title {
+    max-width: 20ch;
+  }
+  #reviews-727 .cs-card-group {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+  }
+  #reviews-727 .cs-item {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    /* 32px - 48px top & bottom */
+    /* 16px - 32px left & right */
+    padding: clamp(2rem, 7vw, 3rem) clamp(1rem, 4vw, 2rem);
+    /* makes padding not affect height and width */
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #reviews-727 .cs-icon {
+    /* 30px - 40px */
+    width: clamp(1.875rem, 4vw, 2.5rem);
+    height: auto;
+    margin: 0 0 2rem 0;
+    display: block;
+    /* changes svg icon color */
+    fill: var(--primary);
+  }
+  #reviews-727 .cs-h3 {
+    /* 20px - 25px */
+    font-size: clamp(1.25rem, 4vw, 1.5625rem);
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: 0 0 1.5rem 0;
+    color: var(--headerColor);
+  }
+  #reviews-727 .cs-item-text {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 4vw, 1rem);
+    line-height: 1.5em;
+    margin: 0 0 3rem 0;
+    color: var(--bodyTextColor);
+  }
+  #reviews-727 .cs-name {
+    font-size: 1.25rem;
+    line-height: 1.2em;
+    font-weight: 500;
+    margin: auto 0 0 0;
+    color: var(--headerColor);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+  }
+  #reviews-727 .cs-name:before {
+    content: "";
+    width: 0.5rem;
+    height: 1px;
+    background: currentColor;
+    display: block;
+    position: relative;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #reviews-727 .cs-container {
+    max-width: 80rem;
+  }
+  #reviews-727 .cs-card-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #reviews-727 .cs-item {
+    width: 48.5%;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #reviews-727 .cs-topper,
+  body.dark-mode #reviews-727 .cs-title,
+  body.dark-mode #reviews-727 .cs-text,
+  body.dark-mode #reviews-727 .cs-h3,
+  body.dark-mode #reviews-727 .cs-item-text,
+  body.dark-mode #reviews-727 .cs-name {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #reviews-727 .cs-text {
+    opacity: 0.8;
+  }
+  body.dark-mode #reviews-727 .cs-item {
+    background-color: var(--medium);
+  }
+}
+/*-- -------------------------- -->
+<---        Reviews 1673        -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #reviews-1673 {
+    padding: var(--sectionPadding);
+    position: relative;
+    z-index: 1;
+  }
+  #reviews-1673 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 36.5rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* 40px - 64px */
+    gap: clamp(2.5rem, 4.5vw, 4rem);
+  }
+  #reviews-1673 .cs-content {
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #reviews-1673 .cs-title {
+    margin: 0rem;
+  }
+  #reviews-1673 .cs-card-group {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* 16px - 20px */
+    gap: clamp(1rem, 2.5vw, 1.25rem);
+  }
+  #reviews-1673 .cs-item {
+    list-style: none;
+    width: 100%;
+    max-width: 39.375rem;
+    /* 20px - 40px top & bottom */
+    /* 20px - 40px left & right */
+    padding: clamp(1.25rem, 3.15vw, 2.5rem) clamp(1.25rem, 3.15vw, 2.5rem);
+    background-color: #f7f7f7;
+    /* prevents padding from adding to height and width */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    /* 24px - 48px */
+    gap: clamp(1.5rem, 4vw, 3rem);
+  }
+  #reviews-1673 .cs-flex-group {
+    /* this margin top auto will push everything up and force the cs-flex-group to the bottom of the container. This is to account for review cards with different heights because of more or less text and makes the cards more responsive to changing text */
+    margin-top: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+  #reviews-1673 .cs-profile {
+    width: 3.25rem;
+    height: 3.25rem;
+    border-radius: 50%;
+    position: relative;
+    display: block;
+  }
+  #reviews-1673 .cs-profile img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* makes the image behave like a background image */
+    object-fit: cover;
+  }
+  #reviews-1673 .cs-name {
+    /* 20px - 25px */
+    font-size: 1.25rem;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: 0;
+    /* in case one card has more text than the other, this pushes up against the review text so the name and title are always at the bottom. Only works if parent is a flexbox */
+    margin-top: auto;
+    color: var(--headerColor);
+    display: block;
+  }
+  #reviews-1673 .cs-job {
+    /* 14px - 16px */
+    font-size: 1rem;
+    line-height: 1.5em;
+    font-weight: 400;
+    margin: 0;
+    color: var(--bodyTextColor);
+    display: block;
+  }
+  #reviews-1673 .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #reviews-1673 .cs-item-stars {
+    width: 6.75rem;
+    height: auto;
+  }
+  #reviews-1673 .cs-review {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.6vw, 1.25rem);
+    line-height: 1.5em;
+    margin: 0;
+    color: var(--bodyTextColor);
+    z-index: 1;
+  }
+  #reviews-1673 .cs-quote {
+    width: 5.375rem;
+    height: auto;
+    position: absolute;
+    right: 0rem;
+    bottom: 0rem;
+    z-index: 0;
+    /* changes quote svg color */
+    fill: #e8e8e8;
+  }
+  #reviews-1673 .cs-background {
+    display: none;
+    position: absolute;
+    left: 50%;
+    /* changes to 40px at 1300px */
+    right: 1rem;
+    top: 2.5rem;
+    bottom: 2.5rem;
+    z-index: -1;
+  }
+  #reviews-1673 .cs-background img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #reviews-1673 .cs-container {
+    max-width: 80rem;
+  }
+  #reviews-1673 .cs-card-group {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  #reviews-1673 .cs-background {
+    display: block;
+  }
+}
+/* Large Desktop - 1300px */
+@media only screen and (min-width: 81.25rem) {
+  #reviews-1673 .cs-background {
+    right: 2.5rem;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #reviews-1673 .cs-title,
+  body.dark-mode #reviews-1673 .cs-review,
+  body.dark-mode #reviews-1673 .cs-name {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #reviews-1673 .cs-item {
+    background-color: var(--medium);
+  }
+  body.dark-mode #reviews-1673 .cs-job {
+    color: var(--bodyTextColorWhite);
+    opacity: 0.7;
+  }
+  body.dark-mode #reviews-1673 .cs-quote {
+    opacity: 0.2;
+  }
+}
