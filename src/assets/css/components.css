@@ -70,7 +70,7 @@
     height: clamp(3.75rem, 7vw, 5rem);
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid var(--primary);
+    border: 1px solid var(--primaryLight);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -84,7 +84,7 @@
     height: auto;
     display: block;
     /* changes color of svg icon */
-    fill: var(--primary);
+    fill: var(--primaryLight);
   }
   #why-choose-1635 .cs-h3 {
     font-size: 1.25rem;
@@ -278,6 +278,9 @@
   body.dark-mode #why-choose-1635 .cs-header {
     color: var(--bodyTextColorWhite);
   }
+  body.dark-mode #why-choose-1635 .cs-topper {
+    color: var(--secondary);
+  }
   body.dark-mode #why-choose-1635 .cs-text,
   body.dark-mode #why-choose-1635 .cs-item-text {
     opacity: 0.8;
@@ -368,7 +371,7 @@
     transform: scale(1.1);
   }
   #services-877 .cs-item:hover .cs-h3 {
-    color: var(--primaryLight);
+    color: var(--secondary);
   }
   #services-877 .cs-item:before {
     /* border, done in pseudo so it can sit under the picture */
@@ -396,7 +399,7 @@
     width: 100%;
     height: 12.5rem;
     margin-bottom: 1.25rem;
-    background-color: var(--primaryLight);
+    background-color: var(--secondary);
     /* clips the img tag corners */
     overflow: hidden;
     display: block;
@@ -446,7 +449,7 @@
 /* Dark Mode */
 @media only screen and (min-width: 0rem) {
   body.dark-mode #services-877 .cs-topper {
-    color: var(--primary);
+    color: var(--secondary);
   }
   body.dark-mode #services-877 .cs-title,
   body.dark-mode #services-877 .cs-text,

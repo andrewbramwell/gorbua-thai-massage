@@ -1,24 +1,26 @@
 module.exports = {
-    "name": "Skipton Thai Massage",
-    "email": "skipton.thaimassage@gmail.com",
-    "phoneForTel": "+447709151651",
-    "phoneFormatted": "07709 151651",
-    "openingHours": "Mon-Sun: 9am-7pm",
-    "onlineBooking": "https://skiptonthaimassage.setmore.com/",
+    "name": "Gorbua Thai Massage",
+    "email": "	gorbuathaimassage@gmail.com",
+    "phoneForTel": "+447771650782",
+    "phoneFormatted": "07771 650782",
+    "openingHours": "Thu-Tues: 11am-7pm, closed Wednesday",
+    "onlineBooking": "https://gorbua.setmore.com/",
     "address": {
-        "lineOne": "12 Newmarket St",
-        "lineTwo": "1st Floor",
-        "city": "Skipton",
+        "lineOne": "Grainger Suite",
+        "lineTwo": "Dobson House",
+        "lineThree": "Regent Centre",
+        "lineFour": "Gosforth",
+        "city": "Newcastle",
         "state": "",
-        "zip": "BD23 2HR",
+        "zip": "NE3 3PF",
         "country": "England",
-        "mapLink": "https://maps.app.goo.gl/PUmwRKhcbBuxAZKW7"
+        "mapLink": "https://maps.app.goo.gl/TFu6xeNTBqJDGeN98"
     },
     "socials": {
         "facebook": "",
         "instagram": "",
-        "googleReview": "https://g.page/r/CTkylKcKiaqREBM/review",
+        "googleReview": "",
     },
     //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
-    "domain": "https://www.skiptonthaimassage.co.uk"
+    "domain": "https://www.gorbuathaimassage.co.uk"
 };
